@@ -19,6 +19,13 @@
             <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
         </config-file>
         <source-file src="src/android/PrinterQr386.java" target-dir="src/com/atknit/printer/qr386/PrinterQr386" />
-        <source-file src="src/android/libs/QRCPCLPrinter_sdk_Ver20190430.jar" target-dir="libs" />
+        <source-file src="src/android/libs/QRCPCLPrinter_sdk_Ver20190430.jar" target-dir="app/libs" />
+        <source-file src="src/android/jniLibs/arm64-v8a/libQRCPCLSDK.so" target-dir="app/src/main/jniLibs/arm64-v8a" />
+        <source-file src="src/android/jniLibs/armeabi/libQRCPCLSDK.so" target-dir="app/src/main/jniLibs/armeabi" />
+        <source-file src="src/android/jniLibs/armeabi-v7a/libQRCPCLSDK.so" target-dir="app/src/main/jniLibs/armeabi-v7a" />
+        <source-file src="src/android/jniLibs/mips/libQRCPCLSDK.so" target-dir="app/src/main/jniLibs/mips" />
+        <source-file src="src/android/jniLibs/mips64/libQRCPCLSDK.so" target-dir="app/src/main/jniLibs/mips64" />
+        <source-file src="src/android/jniLibs/x86/libQRCPCLSDK.so" target-dir="app/src/main/jniLibs/x86" />
+        <source-file src="src/android/jniLibs/x86_64/libQRCPCLSDK.so" target-dir="app/src/main/jniLibs/x86_64" />
     </platform>
 </plugin>

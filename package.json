@@ -1,0 +1,19 @@
+{
+  "name": "printerqr386",
+  "version": "1.0.0",
+  "description": "printer qr386 cordova plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youzengjian/PrinterQr386.git"
+  },
+  "author": "youzengjian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youzengjian/PrinterQr386/issues"
+  },
+  "homepage": "https://github.com/youzengjian/PrinterQr386#readme"
+}

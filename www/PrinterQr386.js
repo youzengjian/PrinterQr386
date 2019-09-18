@@ -25,5 +25,5 @@ exports.pageSetup = function (pageWidth, pageHeight, success, error) {
 }
 
 exports.drawText = function (text_x, text_y, text, fontSize, rotate, bold, reverse, underline, success, error) {
-    exec(success, error, 'PrinterQr386', 'pageSetup', [text_x, text_y, text, fontSize, rotate, bold, reverse, underline])
+    exec(success, error, 'PrinterQr386', 'drawText', [text_x, text_y, text, fontSize, rotate, bold, reverse, underline])
 }
